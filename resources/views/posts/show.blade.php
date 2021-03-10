@@ -21,7 +21,7 @@
           <p>{{ $post->content }}</p>
         </div>
 
-        <a href="{{ route('posts.index') }}" class="btn btn-lg btn-outline-primary">Torna alla home</a> 
+        <a href="{{ route('posts.index') }}" class="btn btn-lg btn-outline-primary">Vai al post</a> 
 
   </body>
 </html>
