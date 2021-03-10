@@ -11,7 +11,21 @@
   </head>
 
   <body>
-    <h1>Primo Commit</h1>
+    <h1>Pagine Index</h1>
+
+    <div class="d-flex flex-wrap justify-content-center">
+
+      @foreach ($posts as $post)
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{ $post->image }}" alt="{{ $post->title }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ $post->title }}</h5>
+          <p class="card-text">{{ substr($post->content, 0, 100) }}</p>
+        </div>
+      </div>
+      @endforeach
+
+    </div>
 
   </body>
 </html>
