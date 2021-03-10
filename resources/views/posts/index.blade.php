@@ -22,6 +22,7 @@
           <h5 class="card-title">{{ $post->title }}</h5>
           <p class="card-text">{{ substr($post->content, 0, 100) }}</p>
           <a href="{{ route('posts.show', $post->slug)  }}" class="btn btn-lg btn-outline-primary">Vai al post</a>
+          <a href="{{ route('posts.create') }}" class="btn btn-lg btn-outline-primary">INSERISCI UN NUOVO POST</a>
         </div>
       </div>
       @endforeach
