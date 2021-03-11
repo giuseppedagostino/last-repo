@@ -16,4 +16,6 @@
 
       @include('components.footer')
     </body>
+    {{-- js --}}
+    <script src="{{ asset('js/app.js') }}"></script>
 </html>

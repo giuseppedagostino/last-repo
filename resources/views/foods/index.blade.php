@@ -40,6 +40,14 @@
     {{-- RESTAURANTS --}}
     <section id="restaurants" class="bg-danger p-4 text-white">
       <h3>restaurants</h3>
+      <div class="slick-carousel">
+        <div class="bg-warning" style="width: 300px; height: 200px;"></div>
+        <div class="bg-primary" style="width: 300px; height: 200px;"></div>
+        <div class="bg-success" style="width: 300px; height: 200px;"></div>
+        <div class="bg-secondary" style="width: 300px; height: 200px;"></div>
+        <div class="bg-dark" style="width: 300px; height: 200px;"></div>
+        <div class="bg-info" style="width: 300px; height: 200px;"></div>
+      </div>
     </section>
     {{-- /RESTAURANTS --}}
 
